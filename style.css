@@ -1,0 +1,130 @@
+/* Fonte e fundo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Barra de navegação */
+.navbar {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffdd57 !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* Carrossel */
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Cartões de produtos */
+.card {
+    border: none;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Botões */
+.btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-success {
+    background: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #1c7c31;
+}
+
+.btn-warning {
+    background: #ffc107;
+    border: none;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background: #d39e00;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+}

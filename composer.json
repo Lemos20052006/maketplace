@@ -1,0 +1,14 @@
+{
+    "name": "matheus/meu-marketplace",
+    "description": "Meu Marketplace de Produtos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Lemos",
+            "email": "matheus@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
